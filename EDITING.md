@@ -27,7 +27,7 @@ The publisher checks that origin is your personal `username/username` repository
 
 Open [profile.json in GitHub's editor](https://github.com/MannanBabar16/MannanBabar16/edit/main/profile.json), change the values, and commit. **Render profile** in Actions regenerates the README and graphics when runner access is available.
 
-GitHub previously rejected this account's café workflow before creating a job. If the profile workflow is also blocked, use the local control room's Publish button or the commands below; they work without Actions. No account billing changes are made by this project.
+**Current automation status:** GitHub reports “The job was not started because your account is locked due to a billing issue.” The profile itself is already live; this prevents automatic regeneration when you edit the config on GitHub. Use the local control room's Publish button or the commands below; they work without Actions. Automatic web edits can resume after the account issue is resolved in [GitHub billing settings](https://github.com/settings/billing). No billing settings were changed by this project.
 
 ## Command-line editing
 
