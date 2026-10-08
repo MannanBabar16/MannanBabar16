@@ -1,0 +1,103 @@
+{
+  "identity": {
+    "name": "Abdul Mannan",
+    "callsign": "MANNAN",
+    "role": "UNITY GAME DEVELOPER BRUV.",
+    "location": "Lahore, Pakistan",
+    "tagline": [
+      "I build worlds",
+      "you want to play."
+    ],
+    "bio": "I bring a UI/UX eye to game development: readable interfaces, hands-on mechanics, and worlds with a little personality. My projects explore cozy simulation, platformers, and 3D gameplay.",
+    "status": "Building, playing, iterating.",
+    "currentFocus": "Coffee craft & café life"
+  },
+  "theme": {
+    "background": "#0d1118",
+    "surface": "#151b25",
+    "accent": "#dbff73",
+    "secondary": "#b4a1ff",
+    "text": "#f0f2e9",
+    "muted": "#98a5b8",
+    "animation": true
+  },
+  "links": {
+    "github": "https://github.com/MannanBabar16",
+    "linkedin": "https://www.linkedin.com/in/abdulmannanbabar",
+    "portfolio": "",
+    "email": ""
+  },
+  "loadout": [
+    {
+      "label": "GAMEPLAY",
+      "tools": "Unity · C#",
+      "detail": "Loops, movement, interaction"
+    },
+    {
+      "label": "PLAYER EXPERIENCE",
+      "tools": "UI / UX design",
+      "detail": "Clarity, feedback, personality"
+    },
+    {
+      "label": "IN THE BROWSER",
+      "tools": "TypeScript · Three.js",
+      "detail": "Playable WebGL experiments"
+    },
+    {
+      "label": "SIDE QUESTS",
+      "tools": "C++ · game jams",
+      "detail": "Small ideas, practical learning"
+    }
+  ],
+  "principles": [
+    "Make the next action feel clear.",
+    "Give every interaction a response.",
+    "Keep learning through playable ideas."
+  ],
+  "projects": [
+    {
+      "id": "after-hours",
+      "title": "After Hours Café",
+      "genre": "COZY SIMULATION",
+      "description": "Coffee craft, café management, and a rainy evening with your regulars.",
+      "tech": "WebGL / TypeScript / Three.js",
+      "url": "https://github.com/MannanBabar16/After-hours-cafe-webgl",
+      "playUrl": "https://after-hours-cafe.upbeat-badge-4829.chatgpt.site",
+      "art": "cafe",
+      "accent": "#dbff73"
+    },
+    {
+      "id": "climb-up",
+      "title": "ClimbUp",
+      "genre": "2D PLATFORMER",
+      "description": "Climb to safety and outsmart enemies. A Unity platformer experiment.",
+      "tech": "Unity / C# / 2D",
+      "url": "https://github.com/MannanBabar16/ClimbUp-2Dgame",
+      "playUrl": "",
+      "art": "platformer",
+      "accent": "#b4a1ff"
+    },
+    {
+      "id": "horror-runner",
+      "title": "Horror Runner",
+      "genre": "3D GAMEPLAY",
+      "description": "Exploring a darker direction with a 3D endless-runner project.",
+      "tech": "C# / 3D / Prototype",
+      "url": "https://github.com/MannanBabar16/Endless-Runner-Horror3D",
+      "playUrl": "",
+      "art": "runner",
+      "accent": "#ffad8a"
+    },
+    {
+      "id": "game-jam",
+      "title": "MachharrMaar",
+      "genre": "GAME JAM / 2025",
+      "description": "A project from PGC Game Jam 2025. Small scope, room to experiment.",
+      "tech": "C# / Game jam",
+      "url": "https://github.com/MannanBabar16/PGC-GameJam-2025-MachharrMaar",
+      "playUrl": "",
+      "art": "jam",
+      "accent": "#73d9de"
+    }
+  ]
+}

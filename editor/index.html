@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Mannan — Profile Control Room</title>
+  <link rel="stylesheet" href="/editor/style.css" />
+  <script src="/editor/editor.js" defer></script>
+</head>
+<body>
+  <aside>
+    <a class="brand" href="/preview.html"><span class="symbol">◣ ◢</span> MANNAN<span class="brand-sub">PROFILE CONTROL ROOM</span></a>
+    <div class="save-slot"><span class="signal"></span> PERSONAL SAVE / 01</div>
+    <nav aria-label="Profile sections">
+      <button class="active" data-tab="identity">01 <span>Player identity</span><span>↗</span></button>
+      <button data-tab="projects">02 <span>Project select</span><span>↗</span></button>
+      <button data-tab="loadout">03 <span>Developer loadout</span><span>↗</span></button>
+      <button data-tab="theme">04 <span>Visual settings</span><span>↗</span></button>
+    </nav>
+    <div class="sidebar-note"><span>SINGLE SOURCE OF TRUTH</span><p>One config. Your bio, projects, links, colors, and motion.</p><code>profile.json</code></div>
+    <a href="/preview.html" target="_blank" class="preview-link">Open full preview ↗</a>
+  </aside>
+  <main>
+    <header><div><p class="eyebrow">YOUR PROFILE / YOUR RULES</p><h1 id="page-title">Player identity</h1><p id="page-description">Give the person behind the games a voice.</p></div><div class="header-actions"><button id="download" class="secondary">Export config ↓</button><button id="save" class="primary">Save & build ↗</button></div></header>
+    <div id="status" role="status" aria-live="polite">Loading your profile…</div>
+    <div class="workspace">
+      <form id="profile-form" novalidate><div id="fields"></div></form>
+      <section class="preview-panel" aria-label="Profile preview"><div class="panel-label"><span>PROFILE PREVIEW</span><a href="/preview.html" target="_blank">EXPAND ↗</a></div><iframe id="preview" title="Generated GitHub profile preview" src="/preview.html"></iframe><div class="publish-area"><p>Ready for your GitHub homepage?</p><button id="publish" class="secondary">Publish to GitHub ↗</button><small>Commits the config and generated artwork, then pushes using your existing Git login. No access tokens in this page.</small></div></section>
+    </div>
+    <footer><span>Changes stay local until you publish.</span><span id="unsaved">All changes saved</span></footer>
+  </main>
+</body>
+</html>
