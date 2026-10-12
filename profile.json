@@ -10,7 +10,7 @@
     ],
     "bio": "I bring a UI/UX eye to game development: readable interfaces, hands-on mechanics, and worlds with a little personality. My projects explore cozy simulation, platformers, and 3D gameplay.",
     "status": "Building, playing, iterating.",
-    "currentFocus": "Coffee craft & café life"
+    "currentFocus": "Café simulation & connected game systems"
   },
   "theme": {
     "background": "#0d1118",
@@ -59,7 +59,7 @@
       "id": "after-hours",
       "title": "After Hours Café",
       "genre": "COZY SIMULATION",
-      "description": "Coffee craft, café management, and a rainy evening with your regulars.",
+      "description": "A playable café: stock deliveries, coffee and cookies, drive-through orders, real earnings, and two camera modes.",
       "tech": "WebGL / TypeScript / Three.js",
       "url": "https://github.com/MannanBabar16/After-hours-cafe-webgl",
       "playUrl": "https://after-hours-cafe.upbeat-badge-4829.chatgpt.site",
